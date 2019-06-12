@@ -1,0 +1,22 @@
+2019-06-12 01:55:26,150 CRIT Supervisor running as root (no user in config file)
+2019-06-12 01:55:26,157 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2019-06-12 01:55:26,373 INFO RPC interface 'supervisor' initialized
+2019-06-12 01:55:26,374 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-06-12 01:55:26,374 INFO supervisord started with pid 1
+2019-06-12 01:55:27,383 INFO spawned: 'varnishd' with pid 15
+2019-06-12 01:55:27,396 INFO spawned: 'php-fpm' with pid 16
+2019-06-12 01:55:27,437 INFO spawned: 'varnish-plugins-watcher' with pid 17
+2019-06-12 01:55:27,466 INFO spawned: 'nginx' with pid 18
+2019-06-12 01:55:27,543 INFO spawned: 'MailHog' with pid 20
+2019-06-12 01:55:27,578 INFO spawned: 'mysql' with pid 23
+2019-06-12 01:55:27,647 INFO spawned: 'varnish-themes-watcher' with pid 24
+2019-06-12 01:55:29,166 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-06-12 01:55:29,167 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-06-12 01:55:29,168 INFO success: varnish-plugins-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-06-12 01:55:29,176 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-06-12 01:55:29,178 INFO success: MailHog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-06-12 01:55:29,179 INFO success: mysql entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-06-12 01:55:29,179 INFO success: varnish-themes-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-06-12 01:56:06,723 INFO exited: varnishd (exit status 0; expected)
+2019-06-12 01:56:07,738 INFO spawned: 'varnishd' with pid 481
+2019-06-12 01:56:08,744 INFO success: varnishd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
