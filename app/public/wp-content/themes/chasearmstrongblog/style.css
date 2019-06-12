@@ -356,6 +356,28 @@ html {
     display: none;
   }
 
+/* My Normalization */
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: -1px;
+  color: #475573;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 /* Additional styling */
 
 
@@ -387,6 +409,8 @@ html {
   box-sizing: border-box;
   border-bottom: 3px solid #ffffff;
   height: 100%;
+  box-shadow: 0 5px 12px 0 rgba(38,41,58,.06);
+  display: flex;
 }
 
 .post-container:hover {
@@ -396,9 +420,33 @@ html {
 }
 
 .post-container:hover .post-container-title {
-  color: #7c5ce2 !important;
+  color: #7c5ce2;
 }
 
 .post-container-wrapper {
   text-decoration: none;
+}
+
+.excerpt-container * {
+  color: #8998b8;
+}
+
+.date-container p {
+  font-size: 14px;
+  font-family: 'Open Sans', serif;
+  font-weight: 200;
+  color: #a1abc2;
+  padding-bottom: 20px;
+  flex: 0 0 auto;
+}
+
+.post-container-title {
+  margin-bottom: 30px;
+}
+
+.title-and-excerpt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
 }
