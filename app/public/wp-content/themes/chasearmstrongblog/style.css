@@ -358,37 +358,47 @@ html {
 
 /* Additional styling */
 
-#posts {
-    width: 100%;
-    height: 100vh;
-    overflow-y: auto;
-    padding: 60px;
-    display: grid;
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #e6ebf3;
-    box-sizing: border-box;
+
+
+#posts-page {
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: auto;
+  padding: 60px;
+  background-color: #e6ebf3;
+  box-sizing: border-box;
 }
 
-#posts .post-container {
-    display: flex;
-    flex-direction: column;
-    border-radius: 3px;
-    background-color: #ffffff;
-    padding: 30px;
-    padding-bottom: 27px;
-    box-sizing: border-box;
-    border-bottom: 3px solid #ffffff;
+.posts-container {
+  display: grid;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
 }
 
-#posts .post-container:hover {
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-color: #7c5ce2;
-    cursor: pointer;
+.post-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  background-color: #ffffff;
+  padding: 30px;
+  padding-bottom: 27px;
+  box-sizing: border-box;
+  border-bottom: 3px solid #ffffff;
+  height: 100%;
 }
 
-#posts .post-container:hover .post-container-title {
-    color: #7c5ce2;
+.post-container:hover {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-color: #7c5ce2;
+}
+
+.post-container:hover .post-container-title {
+  color: #7c5ce2 !important;
+}
+
+.post-container-wrapper {
+  text-decoration: none;
 }
