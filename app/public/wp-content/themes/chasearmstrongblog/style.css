@@ -478,6 +478,7 @@ p {
 .single-post-container {
   padding-right: 60px;
   padding-left: 60px;
+  padding-bottom: 60px;
 }
 
 @media (max-width: 768px) {
@@ -535,4 +536,40 @@ p {
   letter-spacing: -2px;
   margin-bottom: 40px;
   color: #303454;
+}
+
+.post-content > p {
+  color: #55596b;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.post-content > h4 {
+  color: #303454;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.code-block span {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 35px;
+  font-family: Roboto, sans-serif;
+}
+
+.CodeMirror-simplescroll {
+  border-radius: 7px;
+  padding: 40px;
+}
+
+.wp-block-codemirror-blocks-code-block {
+  margin-bottom: 0px;
+}
+
+.post-content {
+  display: grid;
+  grid-gap: 35px;
 }
