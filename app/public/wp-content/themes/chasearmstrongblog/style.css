@@ -584,3 +584,8 @@ p {
   max-width: 100%;
   overflow-x: auto;
 }
+
+a {
+  color: #7c5ce2;
+  text-decoration: none;
+}
