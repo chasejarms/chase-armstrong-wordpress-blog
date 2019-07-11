@@ -564,16 +564,10 @@ p {
   font-size: 28px;
 }
 
-.code-block span {
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 35px;
+.CodeMirror-linenumber, .code-block span {
+  line-height: 25px;
   font-family: Roboto, sans-serif;
-}
-
-.CodeMirror-simplescroll {
-  border-radius: 7px;
-  padding: 40px;
+  font-weight: 300;
 }
 
 .wp-block-codemirror-blocks-code-block {
