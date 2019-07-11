@@ -570,6 +570,12 @@ p {
   font-weight: 300;
 }
 
+.CodeMirror-linenumber {
+  font-size: 12px;
+  position: relative;
+  top: 1px;
+}
+
 .wp-block-codemirror-blocks-code-block {
   margin-bottom: 0px;
 }
