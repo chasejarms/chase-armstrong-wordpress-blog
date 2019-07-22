@@ -591,4 +591,11 @@ a {
   text-decoration: none;
 }
 
+.single-post-container p > code {
+  background-color: #F4F1FF;
+  border-radius: 3px;
+  padding: 4px 12px;
+  color: #7c5ce2;
+}
+
 /* adding a comment to style.css to see if it deploys */
